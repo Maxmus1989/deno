@@ -13,7 +13,11 @@ template("rust_crate") {
     ]
     outputs = []
     depfile = "$target_out_dir/$target_name.d"
+<<<<<<< HEAD
     script = "//third_party/v8/tools/run.py"
+=======
+    script = "//v8/tools/run.py"
+>>>>>>> bbb320d... Put rust depfile in target_out_dir
 
     args = [
       "rustc",
